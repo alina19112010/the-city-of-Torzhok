@@ -1,0 +1,92 @@
+*{
+    margin:0;
+}
+header{
+    display: flex;
+    justify-content: flex-end;
+    background-color: rgb(27, 9, 51);
+    height: 60px;
+    top:0px;
+    left:0px;
+    background-attachment: fixed;
+}
+.pustota{
+    width: 40px;
+    height: 10px;
+}
+.pustota1{
+    width: 900px;
+    height: 10px;
+}
+a{
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    text-decoration: none;
+}
+.gl{
+    padding: 50px;
+    background-image: url(images/фон.jpg);
+    height: 600px;
+}
+.gl__text{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin: 410px 60px;
+    color: rgb(255, 255, 255);
+    font-size: 19px;
+    
+}
+.histori{
+    margin: 5px 50px;
+    width: 1200px;
+    
+}
+h2{
+    font-size: 24px;
+}
+.histori__text{
+    font-size:20px;
+    padding: 10px;
+}
+.za{
+    padding: 15px 57px;
+    font-size: 30px;
+}
+ul{
+    font-size:20px;
+}
+.dos{
+    margin: 5px 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.dos__text{
+    display: flex;
+    flex-direction: column;
+   width: 700px;
+   margin: 20px;
+}
+.o{
+    font-size: 25px;
+}
+.s{
+    font-size: 20px;
+}
+.pus{
+    height: 10px;
+}
+.remesla, .myzei{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-between;
+    
+}
+.remesla__text, .myzei__text{
+    margin: 10px;
+    width: 600px;
+    font-size: 19px;
+}
+
+
